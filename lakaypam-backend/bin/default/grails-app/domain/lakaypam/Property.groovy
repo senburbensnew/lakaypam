@@ -1,12 +1,12 @@
 package lakaypam
 
 class Property {
-    Illusatration illustration
+    Illustration illustration
     Double latitude
     Double longitude
     User owner
 
-    static hasMany = [illusatrations: Illustration]
+    static hasMany = [illustrations: Illustration]
 
     static constraints = {
         illustration nullable : true, blank : false
