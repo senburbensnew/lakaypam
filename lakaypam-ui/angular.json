@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "lakaypam",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
